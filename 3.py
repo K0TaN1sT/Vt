@@ -19,6 +19,8 @@ def search(lst, val): #алгоритм поиска, не работает та
             h = m
         else:
             l = m
+            
+            
 file = [str(x) for x in open('products.csv', encoding='utf-8').readlines()] #инициализация файла
 qur = input()
 
